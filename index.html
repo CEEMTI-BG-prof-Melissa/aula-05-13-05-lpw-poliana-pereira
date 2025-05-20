@@ -2,22 +2,25 @@
   <head>
   </head>
   <body>
-    <form>
       <h1> Formulário com método GET </h1>
-      login <input type="text"> 
+      <form action="/page.php" method="get">
+      Login <input type="text" id="login" name="login">
       <br><br>
-      senha <input type="password"> 
+      Senha <input type="password" id="senha" name="senha">
       <br><br>
-      <input type="submit" value="Entrar">
-      <br><br> 
-        
-      <h1> Formulário com método POST</h1>
-      login <input type="text"> 
+      <input type="submit" value="entrar">
       <br><br>
-      senha <input type="password"> 
+      </form>
+
+      <h1> Formulário com método POST </h1>
+      <form action="/page.php" method="post">
+      Login <input type="text"> 
       <br><br>
-      <input type="submit" value="Entrar"> 
+      Senha <input type="password"> 
       <br><br>
-    </form>
+      <input type="submit" value="entrar"> 
+      <br><br>
+      </form>
   </body>
 </html>
+ 
